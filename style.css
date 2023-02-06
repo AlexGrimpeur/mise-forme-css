@@ -33,9 +33,48 @@ body{
     padding: 0px;
     margin: 0px;
 }
-.page {
-	/* background-color: red;  */
+
+h1 {
+    background-color: #EADDCA;
+    margin: unset;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #6b5545;
 }
+
+h2 {
+    color: #6b5545;
+    font-size: medium;
+    margin: 20px;
+    font-variant: small-caps;
+}
+
+strong {
+    color: #6B5545;
+    font-weight: 400;
+}
+
+em {
+    color: #736E6E;
+}
+
+a {
+    font-weight: 700;
+}
+
+a:hover {
+    color: #6B5545;
+    text-decoration: none;
+}
+
+.introduction {
+    font-style: italic;
+    border: 1px solid  #87919e;
+    padding: 1rem;
+    margin: 10px;
+    border-radius: 10px;
+}
+
 .entete{
     background-color: #f08080;
     padding: 10px;
@@ -59,12 +98,14 @@ body{
     background-color: gold;
 }
 .colonne_contenu {
-    background-color: lightgreen;
+    background-color: #CDE6F5;
+    padding: 10px;    
 }
 .pieddepage{
     background-color: #f08080;
     color: chocolate;
     text-align: center;
+    line-height: 4em;
 }
 
 
