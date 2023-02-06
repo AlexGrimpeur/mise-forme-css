@@ -91,12 +91,33 @@ a:hover {
     color: chocolate;
 }
 
-.colonnes {
-    background-color: deepskyblue;
+.colonnes, .colonne_menu {
+    background-color: #6b5545;
 }
-.colonne_menu{
-    background-color: gold;
+
+.colonne_menu ul {
+    padding: unset;
+    margin: unset;
 }
+
+.colonne_menu li {
+    list-style-type: none;
+    background-color: #EADDCA;
+    margin: 5px;
+    /* padding: 5px; */
+}
+
+.colonne_menu li:hover {
+    background-color: #CDE6F5;
+}
+
+li a {
+    display: block;
+    padding: 5px;
+    color: #6B5545;
+    text-decoration: none;
+}
+
 .colonne_contenu {
     background-color: #CDE6F5;
     padding: 10px;    
